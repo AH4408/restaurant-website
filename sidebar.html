@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jsformenu.js" type="text/javascript" defer></script>
+    <title>Document</title>
+    <style>
+        
+        
+        .sidebarbtns {
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            width:380px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .sidebarbtns :hover {
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            transform: translateY(-2px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .sidebarbtns :active {
+            transform: translateY(1px);
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 5px 0;
+            font-size: 18px;
+        }
+        .sidebarbtns1 {
+            background: linear-gradient(135deg, rgb(93, 93, 187), rgb(93, 93, 187));
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            width:380px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            bottom:75px;
+        }
+        .sidebarbtns2 {
+            background: linear-gradient(135deg, rgb(93, 93, 187), rgb(93, 93, 187));
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            width:380px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            bottom:20px;
+        }
+.sidebarbtns1,.sidebarbtns2{
+    position:absolute
+}
+
+        .sidebarbtns1 :hover {
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            transform: translateY(-2px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .sidebarbtns1 :active {
+            transform: translateY(1px);
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li> <a href="Appetizers.html" target="menuct"><button class="sidebarbtns">Appetizers</button></a></li>
+            <li> <a href="Main_Course.html" target="menuct"><button class="sidebarbtns">Main Course</button></a></li>
+            <li> <a href="Deserts.html" target="menuct">  <button class="sidebarbtns">Deserts</button></a></li>
+            <li> <a href="Beverages.html" target="menuct"> <button class="sidebarbtns">Beverages</button></a></li>
+            <li> <a href="ordermodule.html" target="mainmenu.html"> <button class="sidebarbtns1">Final Order</button></a></li>
+            <li> <a href="index.html" target="mainmenu.html" > <button class="sidebarbtns2">Back to home</button></a></li>
+            <li> <button class="sidebarbtns" id="clear-order-btn">Clear Order</button> </li>
+        </ul>
+    </div>
+</body>
+</html>
